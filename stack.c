@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "stack.h"
 #include <string.h>
+#define NULL 0
 
 Stack * create_stack(int initial_size)
 {
