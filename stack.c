@@ -63,6 +63,7 @@ void stack_overflow(void)
 void stack_underflow(void)
 {
 	printf("Not enough operands in expression\n");
+	printf("임의의 C코드 끼워넣기!");
 	exit(EXIT_FAILURE);
 }
 
